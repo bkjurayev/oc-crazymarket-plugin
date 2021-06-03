@@ -1,0 +1,12 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+products:
+    label: product
+    view:
+        list: $/crazy/market/models/product/columns_for_category.yaml
+        toolbarButtons: add|create|remove|delete
+    manage:
+        list: $/crazy/market/models/product/columns_for_category.yaml
+        form: $/crazy/market/models/product/fields.yaml

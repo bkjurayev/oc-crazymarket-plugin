@@ -1,0 +1,31 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    is_active:
+        label: Is active
+        type: switch
+    name:
+        label: Name
+        span: auto
+    slug:
+        label: Slug
+        span: auto
+        preset:
+            field: name
+tabs:
+    fields:
+        excerpt:
+            label: Excerpt
+            type: textarea
+            tab: excerpt
+        description:
+            label: Description
+            type: richeditor
+            tab: excerpt
+        logo:
+            type: fileupload
+            mode: image
+            span: auto
+            tab: Images

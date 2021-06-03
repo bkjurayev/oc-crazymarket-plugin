@@ -1,0 +1,6 @@
+1.0.1:
+    - First version of market
+    - create_products_table.php
+    - create_brands_table.php
+    - create_categories_table.php
+    - create_category_product_table.php

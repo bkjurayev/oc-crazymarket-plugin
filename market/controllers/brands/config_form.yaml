@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Brand
+
+# Model Form Field configuration
+form: $/crazy/market/models/brand/fields.yaml
+
+# Model Class name
+modelClass: Crazy\Market\Models\Brand
+
+# Default redirect location
+defaultRedirect: crazy/market/brands
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: crazy/market/brands/update/:id
+    redirectClose: crazy/market/brands
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: crazy/market/brands
+    redirectClose: crazy/market/brands
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title
